@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            height: 700px;
+            width: 100%;
+            display: flex;
+        }
+        .left{
+            flex-direction: left;
+            width: 60%;
+            background-image: url(https://wallpapers.com/images/hd/national-park-with-goldenrod-field-4laqo6y4pxwezq5a.jpg);
+            image-repeat: no repeat;
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 40%;
+            font-size: larger;
+            gap:100px;
+        }
+        button{
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="left"></div>
+        <div class="right">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> 
+            Animi,amet officiis earum labore mollitia autem esse cupiditate quis.<br>
+             Fuga voluptatum delectus in saepenatus asperiores rem impedit atque <br>
+             eveniet officia. Quibusdam, laborum.
+         <button>submit</button>
+        </div> 
+
+    </div>
+</body>
+</html>
