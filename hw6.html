@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: #ece7f8;
+        }
+        .main_box {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            width: 95%;
+            height: 92vh;
+            border-radius: 20px;
+            background: white;
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .box1 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 60px;
+        }
+
+        .box1 h1{
+            font-size: 5rem;
+            color:#111827;
+            line-height: 1.1;
+        }
+
+        .box1 p{
+            width:80%;
+            font-size: 1rem;
+            line-height: 1.7;;
+            margin-top: 25px;
+            color:#6b7280;
+        }
+        .btns{
+            display:flex;
+            gap:15px;
+            margin-top:35px;
+        }
+
+        .btns button{
+            padding: 12px 24px;
+            border: none;
+            border-radius: 15px;
+            background:linear-gradient(135deg,#5A3DF0,#A78BFA);
+            color: white;
+            font-size: 1rem;
+        }
+
+        .btns button:last-child{
+            background:#f3f4f6;
+            color:#111827;
+        }
+
+        .highlight{
+            color:#5A3DF0;
+        }
+
+        .tag{
+            font-size:13px;
+            color:#7c3aed;
+            margin-bottom:20px;
+            font-weight:bold;
+        }
+
+        .box2 {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            gap:15px;
+        }
+
+        .big1{
+            height:100%;
+            width: 50%;
+            overflow:hidden;
+            border-radius:20px;
+        }
+        .big2{
+            background:white;
+            height: 100%;
+            width: 50%;
+            display:flex;
+            flex-direction: column;
+            gap:15px;
+        }
+        .big1 img{
+            height:700px;
+            width:380px;
+        }
+        .top{
+            height: 340px;
+            width:100%;
+             overflow:hidden;
+                border-radius:25px;
+        }
+        .botton{
+            height: 340px;
+            width:100%;
+            background: rgb(113, 39, 241);
+            border-radius: 30px;
+        }
+        .top img{
+            border-radius: 25px;
+             width:100%;
+            height:100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main_box">
+        <div class="box">
+        <div class="box1">
+            <h1>
+                    Elevate Your <br>
+                    <span class="highlight">Daily</span> <br>
+                    <span class="highlight">Essentials.</span>
+                </h1>
+
+                <p>
+                    Experience the perfect blend of minimalist design and high-performance technology with our curated luxury selection.
+                </p>
+
+                <div class="btns">
+                    <button class="btn1">Sign Up</button>
+                    <button class="btn2">Browse Now</button>
+                </div>
+        </div>
+        <div class="box2">
+            <div class="big1">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.XjqWdgNTvW76t7sDEUPy5AHaHa?cb=thfc1&rs=1&pid=ImgDetMain&o=7&rm=3" alt="watch image" >
+                
+            </div>
+            <div class="big2">
+                <div class="top">
+                    <img src="https://i5.walmartimages.com/seo/Wireless-Headphones-Over-Ear-Bluetooth-with-Mic-Foldable-Stereo-Headset-for-Immersive-Sound-Black_5df074ff-aae8-4032-926c-de7cb0f38d4d.aa2540260e69014895dd2b06e24f1d50.jpeg" width="100%" height="360px">
+                </div>
+                <div class="botton"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
